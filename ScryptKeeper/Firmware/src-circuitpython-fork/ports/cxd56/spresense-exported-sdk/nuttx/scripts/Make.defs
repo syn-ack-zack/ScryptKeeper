@@ -1,0 +1,35 @@
+ARCHCFLAGS       = -fno-builtin -mabi=aapcs -ffunction-sections -fdata-sections
+ARCHCPUFLAGS     = -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard
+ARCHCXXFLAGS     = -fno-builtin -fno-exceptions -fno-rtti -std=c++11
+ARCHPICFLAGS     = -fpic -msingle-pic-base -mpic-register=r10
+ARCHWARNINGS     = -Wall -Wstrict-prototypes -Wshadow -Wundef
+ARCHWARNINGSXX   = -Wall -Wshadow -Wundef
+ARCHOPTIMIZATION = -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer
+CROSSDEV         = arm-none-eabi-
+CC               = arm-none-eabi-gcc
+CXX              = arm-none-eabi-g++
+CPP              = arm-none-eabi-gcc -E -P -x c
+LD               = arm-none-eabi-ld
+AR               = arm-none-eabi-ar rcs
+NM               = arm-none-eabi-nm
+STRIP            = arm-none-eabi-strip --strip-unneeded
+OBJCOPY          = arm-none-eabi-objcopy
+OBJDUMP          = arm-none-eabi-objdump
+NXFLATLDFLAGS1   = -r -d -warn-common
+NXFLATLDFLAGS2   = -r -d -warn-common -Tspresense/nuttx/binfmt/libnxflat/gnu-nxflat-pcrel.ld -no-check-sections
+OBJEXT           = .o
+LIBEXT           = .a
+EXEEXT           = 
+HOSTCC           = gcc
+HOSTINCLUDES     = 
+HOSTCFLAGS       = -Wall -Wstrict-prototypes -Wshadow -Wundef -g -pipe
+HOSTLDFLAGS      = 
+HOSTEXEEXT       = 
+LDNAME           = ramconfig-new.ld
+EXTRA_LIBS       = -lgcc -lm
+EXTRA_OBJS       = 
+HEAD_OBJ         = 
+LDENDGROUP       = 
+LDFLAGS          = --gc-sections -nostartfiles -nodefaultlibs -Map=spresense/nuttx/nuttx.map --cref
+LDSTARTGROUP     = 
+LDLIBS           = -lsched -ldrivers -lboards -lc -lmm -larch -lapps -lfs -lbinfmt -lboard 

@@ -1,0 +1,12 @@
+[mapping:xtensa]
+archive: libxtensa.a
+entries:
+    eri (noflash_text)
+    xtensa_intr_asm (noflash_text)
+    if IDF_TARGET_ESP32S2 = y:
+        stdatomic (noflash)
+
+[mapping:xt_hal]
+archive: libxt_hal.a
+entries:
+    * (noflash_text)

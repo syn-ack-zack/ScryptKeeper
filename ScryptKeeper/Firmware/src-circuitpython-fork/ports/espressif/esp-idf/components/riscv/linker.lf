@@ -1,0 +1,6 @@
+[mapping:riscv]
+archive: libriscv.a
+entries:
+    interrupt (noflash_text)
+    vectors (noflash_text)
+    stdatomic (noflash_text)

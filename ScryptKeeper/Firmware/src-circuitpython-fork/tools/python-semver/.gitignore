@@ -1,0 +1,14 @@
+/.cache
+/.coverage
+/.emacs-project
+/.idea
+/.tox
+/.venv*
+
+/*.egg-info
+/.eggs
+/build
+/dist
+/MANIFEST
+
+*.py[co]

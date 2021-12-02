@@ -1,0 +1,1 @@
+The SAMD21 m0 variant we use does not have a lot of RAM. Compiling overly verbose .py files into .mpy files helps save room

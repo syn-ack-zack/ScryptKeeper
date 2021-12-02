@@ -1,0 +1,23 @@
+# For string compression
+huffman
+
+# For nvm.toml
+cascadetoml
+jinja2
+typer
+
+sh
+click
+cpp-coveralls
+requests
+requests-cache
+
+# For translate check
+polib
+
+# For pre-commit
+pyyaml
+black
+
+# for combining the Nordic SoftDevice with CircuitPython
+intelhex

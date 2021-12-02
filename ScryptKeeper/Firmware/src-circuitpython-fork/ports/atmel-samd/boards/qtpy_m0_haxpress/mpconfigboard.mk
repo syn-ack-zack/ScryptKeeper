@@ -1,0 +1,16 @@
+USB_VID = 0x045E
+USB_PID = 0x001B
+USB_PRODUCT = "ScryptKeeper"
+USB_MANUFACTURER = "Hackers Teaching Hackers"
+
+CHIP_VARIANT = SAMD21E18A
+CHIP_FAMILY = samd21
+
+LONGINT_IMPL = MPZ
+SPI_FLASH_FILESYSTEM = 1
+EXTERNAL_FLASH_DEVICES = "GD25Q16C"
+CIRCUITPY_DISPLAYIO = 0
+
+FROZEN_MPY_DIRS += $(TOP)/frozen/Adafruit_CircuitPython_HID
+FROZEN_MPY_DIRS += $(TOP)/frozen/Adafruit_CircuitPython_Ducky
+FROZEN_MPY_DIRS += $(TOP)/frozen/Adafruit_CircuitPython_NeoPixel

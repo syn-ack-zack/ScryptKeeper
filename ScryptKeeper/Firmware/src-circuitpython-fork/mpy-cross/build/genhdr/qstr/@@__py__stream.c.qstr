@@ -1,0 +1,5 @@
+Q(protocol_stream)
+Q(protocol_stream)
+TRANSLATE("stream operation not supported")
+TRANSLATE("string not supported; use bytes or bytearray")
+TRANSLATE("length argument not allowed for this type")

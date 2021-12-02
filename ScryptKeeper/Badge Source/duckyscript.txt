@@ -1,0 +1,7 @@
+GUI r
+DELAY 100
+STRING https://www.youtube.com/watch?v=C9Xu12Z6NOE&loop=1
+ENTER
+DELAY 1000
+F11
+STRING f

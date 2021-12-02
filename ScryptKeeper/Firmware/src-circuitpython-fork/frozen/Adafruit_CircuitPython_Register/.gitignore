@@ -1,0 +1,12 @@
+# SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
+#
+# SPDX-License-Identifier: Unlicense
+
+.eggs/
+*.egg-info/
+dist
+*.pyc
+_build/
+*.mpy
+.env
+bundles

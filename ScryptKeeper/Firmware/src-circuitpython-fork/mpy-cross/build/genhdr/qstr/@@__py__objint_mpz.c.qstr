@@ -1,0 +1,4 @@
+TRANSLATE("divide by zero")
+TRANSLATE("negative shift count")
+TRANSLATE("overflow converting long int to machine word")
+TRANSLATE("overflow converting long int to machine word")
