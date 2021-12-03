@@ -2,7 +2,8 @@
 
 ## 2021 Hackers Teaching Hackers Badge
 
-<img src="https://user-images.githubusercontent.com/2582445/144517951-0769373b-a938-4fa1-9a49-e73bf93c29ff.jpg" width="600" height="700">
+<img src="https://i.imgur.com/0e16Ox3.jpg" width="800" height="600">
+
 
 The ScryptKeeper is a HID device programmable and powered by CircuitPython.
 The USB-C port provides two serial streams, one of which is a Python REPL, 
