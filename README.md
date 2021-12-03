@@ -1,6 +1,6 @@
 # The ScryptKeeper
 
-## 2021 Hackers Teaching Hackers Conference Badge
+## 2021 Hackers Teaching Hackers Badge
 
 <img src="https://user-images.githubusercontent.com/2582445/144517951-0769373b-a938-4fa1-9a49-e73bf93c29ff.jpg" width="600" height="700">
 
