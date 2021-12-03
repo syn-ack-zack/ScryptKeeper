@@ -17,21 +17,21 @@ To demonstrate the HID capabilities the unlocked ScryptKeeper contains the follo
 via capacitive touch areas on the badge. 
 
 Bling Mode
-----------
-- Description: RGB Fun
-- Activate: Front Brain Touch Pad
-- Next Bling: Nose Touch Pad
-- Exit Bling Mode: Mouth Touch Pad
+---
+- **Description**: RGB Fun
+- **Activate**: Touch Front Brain
+- **Next Bling**: Touch Nose
+- **Exit Bling Mode**: Hold Mouth
 
 Mouse Jiggler
--------------
-- Description: Uses mouse emulation to jiggle mouse 5px every 3 seconds
-- Activate: Nose Touch Pad while USB is plugged in
-- Exit Jiggler: Nose Touch Pad
+---
+- **Description**: Uses mouse emulation to jiggle mouse 5px every 3 seconds
+- **Activate**: Touch Nose while USB is plugged in
+- **Exit Jiggler**: Hold Nose
 
 Ducky Payload
--------------
-- Description: Just like a USB Rubber Ducky, perform HID attacks with the Ducky Scripting language
-- Edit 'duckyscript.txt' to alter the launched payload
-- Launch Payload: Mouth Touch Pad while USB is plugged in 
+---
+- **Description**: Just like a USB Rubber Ducky, perform HID attacks with the Ducky Scripting language
+- **Modify**: Edit 'duckyscript.txt' to alter the launched payload
+- **Launch Payload**: Touch Mouth while USB is plugged in 
 
