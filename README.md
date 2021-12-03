@@ -15,20 +15,20 @@ Visit here for a walkthrough of the challenges: https://github.com/syn-ack-zack/
 
 Learn More about CircuitPython: https://learn.adafruit.com/welcome-to-circuitpython/what-is-circuitpython
 
-To demonstrate the HID capabilities the unlocked ScryptKeeper contains the following functionality
+To demonstrate the HID capabilities of this fully armed and operational ScryptKeeper, the following functionality is controlled
 via capacitive touch areas on the badge. 
 
 Bling Mode
 ---
-- **Description**: RGB Fun
-- **Activate**: Touch Front Brain
-- **Next Bling**: Touch Nose
+- **Description**: RGB fun makes purdy lights
+- **Activate Bling Mode**: Touch Front Brain
+- **Next Bling Animation**: Touch Nose
 - **Exit Bling Mode**: Hold Mouth
 
 Mouse Jiggler
 ---
 - **Description**: Uses mouse emulation to jiggle mouse 5px every 3 seconds
-- **Activate**: Touch Nose while USB is plugged in
+- **Activate Jiggler**: Touch Nose while USB is plugged in
 - **Exit Jiggler**: Hold Nose
 
 Ducky Payload
